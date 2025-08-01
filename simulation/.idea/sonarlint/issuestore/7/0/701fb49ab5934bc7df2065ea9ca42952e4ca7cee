@@ -1,0 +1,119 @@
+
+a	java:S112Ñ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112Í"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+
+java:S1192²"tDefine a constant instead of duplicating this literal "*** Event Queue already contains this event {}! ***" 4 times.(‚éëÄùÿÿÿÿ
+g
+java:S1192Â"KDefine a constant instead of duplicating this literal "extra_days" 3 times.(ÙÒ“¤ùÿÿÿÿ
+l
+java:S1192‚"PDefine a constant instead of duplicating this literal "After_Time_Lab_" 5 times.(ë¦éíùÿÿÿÿ
+a
+java:S1192"JDefine a constant instead of duplicating this literal "scheduler" 6 times.(«ûõ¨
+g
+java:S1192¯"KDefine a constant instead of duplicating this literal "%s.%s (%d)" 4 times.(…‚ŒŒúÿÿÿÿ
+g	java:S117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÈÊž
+g	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖŠÓÔ
+l	java:S117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ñžàúÿÿÿÿ
+g	java:S117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Õàâ
+g	java:S117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï÷Ïä
+l	java:S117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘‘ØÖøÿÿÿÿ
+g	java:S117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êƒã¶
+l	java:S117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é¼½´øÿÿÿÿ
+l	java:S117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú¼•ëÿÿÿÿÿ
+f	java:S117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡‡o
+s
+java:S1104"XMake cathSchedule a static final constant or non-public and provide accessors if needed.(ËÏñµüÿÿÿÿ
+n
+java:S1104""SMake metrics a static final constant or non-public and provide accessors if needed.(ÐÏ«üÿÿÿÿ
+r
+java:S1104%"\Make cathDistribution a static final constant or non-public and provide accessors if needed.(ÆÅö–
+t
+java:S1104("YMake entityManager a static final constant or non-public and provide accessors if needed.(¼¸îÉþÿÿÿÿ
+m
+java:S1104+"RMake LOGGER a static final constant or non-public and provide accessors if needed.(ÙÀ“ˆÿÿÿÿÿ
+q
+java:S11044"VMake eventQueue a static final constant or non-public and provide accessors if needed.(ùâ€°ÿÿÿÿÿ
+r
+java:S11047"WMake pushBumpMap a static final constant or non-public and provide accessors if needed.(­£óúÿÿÿÿ
+v
+java:S1104:"[Make pushBooleansMap a static final constant or non-public and provide accessors if needed.(š®éÿüÿÿÿÿ
+p
+java:S1104="UMake extraDays a static final constant or non-public and provide accessors if needed.(ô¢Ÿ–ûÿÿÿÿ
+l
+java:S1104@"VMake simLastDay a static final constant or non-public and provide accessors if needed.(©áÁ¸
+p
+java:S1104C"UMake logFolder a static final constant or non-public and provide accessors if needed.(«Ê¨£øÿÿÿÿ
+k
+java:S1104F"UMake pushCases a static final constant or non-public and provide accessors if needed.(Ž·ê
+k
+java:S1104I"UMake startDate a static final constant or non-public and provide accessors if needed.(ÐêæÑ
+k
+java:S1104L"UMake startTime a static final constant or non-public and provide accessors if needed.(“ò€â
+i
+java:S1104O"SMake endTime a static final constant or non-public and provide accessors if needed.(Ö‹Øå
+n
+java:S1104R"XMake earlyEndTime a static final constant or non-public and provide accessors if needed.(÷˜ê¨
+t
+java:S1104U"YMake pAEThresholds a static final constant or non-public and provide accessors if needed.(¹Ó»Œúÿÿÿÿ
+o
+java:S1104X"ZMake pICUThresholds a static final constant or non-public and provide accessors if needed.(½Ê¾P
+n
+java:S1104["XMake mlflowClient a static final constant or non-public and provide accessors if needed.(ƒÒÑ‰
+m
+java:S1104^"WMake mlflowRunId a static final constant or non-public and provide accessors if needed.(¡—èÐ
+o
+java:S1104a"YMake scheduleRunId a static final constant or non-public and provide accessors if needed.(îà
+v
+java:S1104d"[Make scheduleRunName a static final constant or non-public and provide accessors if needed.(ßžõžüÿÿÿÿ
+r
+java:S1104g"WMake addonBucket a static final constant or non-public and provide accessors if needed.(ÍË†ÿÿÿÿÿ
+t
+java:S1104j"^Make pushCriteriaActive a static final constant or non-public and provide accessors if needed.(é›µ­
+|
+java:S1104m"aMake pushCriteriaUrgencies a static final constant or non-public and provide accessors if needed.(”€ÈÄþÿÿÿÿ
+y
+java:S1104p"^Make pushCriteriaValues a static final constant or non-public and provide accessors if needed.(‚‹Ç½üÿÿÿÿ
+_
+java:S2184þ"HCast one of the operands of this multiplication operation to a "double".(áƒÉ‰
+:
+java:S16407"Convert this Map to an EnumMap.(­£óúÿÿÿÿ
+:
+java:S1640:"Convert this Map to an EnumMap.(š®éÿüÿÿÿÿ
+d
+java:S2095—"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ñ›žøÿÿÿÿ
+k	java:S116+"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÀ“ˆÿÿÿÿÿ
+H
+java:S1948%"2Make "cathDistribution" transient or serializable.(ÆÅö–
+J
+java:S1948("/Make "entityManager" transient or serializable.(¼¸îÉþÿÿÿÿ
+C
+java:S1948+"(Make "LOGGER" transient or serializable.(ÙÀ“ˆÿÿÿÿÿ
+G
+java:S19484",Make "eventQueue" transient or serializable.(ùâ€°ÿÿÿÿÿ
+C
+java:S19487"(Make "pushBumpMap" private or transient.(­£óúÿÿÿÿ
+G
+java:S1948:",Make "pushBooleansMap" private or transient.(š®éÿüÿÿÿÿ
+E
+java:S1948U"*Make "pAEThresholds" private or transient.(¹Ó»Œúÿÿÿÿ
+@
+java:S1948X"+Make "pICUThresholds" private or transient.(½Ê¾P
+C
+java:S1948g"(Make "addonBucket" private or transient.(ÍË†ÿÿÿÿÿ
+E
+java:S1948j"/Make "pushCriteriaActive" private or transient.(é›µ­
+M
+java:S1948m"2Make "pushCriteriaUrgencies" private or transient.(”€ÈÄþÿÿÿÿ
+J
+java:S1948p"/Make "pushCriteriaValues" private or transient.(‚‹Ç½üÿÿÿÿ
+W	java:S107~"BConstructor has 10 parameters, which is greater than 7 authorized.(Šä­¼
+X	java:S107µ"=Method has 13 parameters, which is greater than 7 authorized.(•×¹Ýüÿÿÿÿ
+X	java:S107¬"=Method has 12 parameters, which is greater than 7 authorized.(¤ñíÝÿÿÿÿÿ
+i
+java:S3776Ï"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ƒ¾ÓÓ
+Z
+java:S3358ã"DExtract this nested ternary operation into an independent statement.(šÙÄ
+U
+java:S1155‘">Use isEmpty() to check whether the collection is empty or not.(¾Ø“Ð
+n
+java:S3776Õ"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(Ð öÈüÿÿÿÿ

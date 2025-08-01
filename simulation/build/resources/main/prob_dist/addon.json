@@ -1,0 +1,7 @@
+[{"distribution": "Poisson", "params": {"param1": 0.8728248}, "segment": {"weekday": 0}},
+  {"distribution": "Poisson", "params": {"param1": 0.9327976}, "segment": {"weekday": 1}},
+  {"distribution": "Poisson", "params": {"param1": 1.0024096}, "segment": {"weekday": 2}},
+  {"distribution": "Poisson", "params": {"param1": 0.9435072}, "segment": {"weekday": 3}},
+  {"distribution": "Poisson", "params": {"param1": 1.0024096}, "segment": {"weekday": 4}},
+  {"distribution": "Poisson", "params": {"param1": 0.1659976}, "segment": {"weekday": 5}},
+  {"distribution": "Poisson", "params": {"param1": 0.1210176}, "segment": {"weekday": 6}}]

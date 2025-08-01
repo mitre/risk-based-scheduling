@@ -1,0 +1,4025 @@
+[
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.04497202514845947,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 3.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.38482928364754654,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09759827264216538,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.18932532522201784,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.23243723910808764,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.18932532522201784,
+    "durationScore": 3
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.15644771778929362,
+    "durationScore": 1
+  },
+  {
+    "procedure": 0,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.41760813791344636,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.38482928364754654,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.08023192816393535,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09759827264216538,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.037749593761029,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.47614312896350747,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.07698747912196803,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.41760813791344636,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.04497202514845947,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09897194220101854,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.21894927748487977,
+    "durationScore": 3
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 1.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.20388297728669053,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.6038899732842652,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09759827264216538,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 1.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.08023192816393535,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.3916694875809041,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.03021312201851742,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.6419643017082493,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.6038899732842652,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.3916694875809041,
+    "durationScore": 3
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.11648970954987996,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.39896007836919917,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.03021312201851742,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.04497202514845947,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.11284545227217121,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.3916694875809041,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.18695781395118544,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.04497202514845947,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.11648970954987996,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 1.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.037749593761029,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.04497202514845947,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.6827632875962917,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.22047507734823918,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.11648970954987996,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.03021312201851742,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.21894927748487977,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.08023192816393535,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 1.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.037749593761029,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.11648970954987996,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.04497202514845947,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09759827264216538,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.3916694875809041,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.3916694875809041,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.04497202514845947,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.04497202514845947,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 3.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.11648970954987996,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.3916694875809041,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09897194220101854,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09759827264216538,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.04497202514845947,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.03021312201851742,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.11648970954987996,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.21894927748487977,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.037749593761029,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.11648970954987996,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.3916694875809041,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.18261949424680962,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 0,
+    "adverseScore": 0.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.04497202514845947,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.6038899732842652,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.03021312201851742,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.062123146801715705,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.04497202514845947,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.3916694875809041,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.3916694875809041,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.29947481377316815,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.18695781395118544,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.18695781395118544,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.04497202514845947,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.037749593761029,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 1.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.04497202514845947,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.3916694875809041,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.037749593761029,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.5896212819770226,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.18695781395118544,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.11648970954987996,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.18695781395118544,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.2927220923801485,
+    "durationScore": 1
+  },
+  {
+    "procedure": 0,
+    "adverseScore": 0.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.206410405096173,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.11648970954987996,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.3916694875809041,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.04497202514845947,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.3916694875809041,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09897194220101854,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.04497202514845947,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.11648970954987996,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.11648970954987996,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.04497202514845947,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.07698747912196803,
+    "durationScore": 3
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.38482928364754654,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.6038899732842652,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.04497202514845947,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.04497202514845947,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.03021312201851742,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.41760813791344636,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.39896007836919917,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.38482928364754654,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.11648970954987996,
+    "durationScore": 1
+  },
+  {
+    "procedure": 0,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.3916694875809041,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.21894927748487977,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.18695781395118544,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.08023192816393535,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 1.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.21894927748487977,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.03021312201851742,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09100707997353219,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.23243723910808764,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.34260654853042055,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.3916694875809041,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.03480396193345495,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.6038899732842652,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.11648970954987996,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.037749593761029,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.6038899732842652,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.04497202514845947,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.18261949424680962,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.3916694875809041,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.3916694875809041,
+    "durationScore": 2
+  },
+  {
+    "procedure": 0,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.21894927748487977,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 3
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.04497202514845947,
+    "durationScore": 1
+  },
+  {
+    "procedure": 0,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.1916382791944147,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 3
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.15644771778929362,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.037749593761029,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.22047507734823918,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.18932532522201784,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.41760813791344636,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.39896007836919917,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09897194220101854,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.676120547834261,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.21894927748487977,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.3916694875809041,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.11648970954987996,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09759827264216538,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.11648970954987996,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.04497202514845947,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.29947481377316815,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.3916694875809041,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09897194220101854,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.6697821672322686,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.21894927748487977,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.11648970954987996,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.03021312201851742,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.037749593761029,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.08023192816393535,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.07698747912196803,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.21894927748487977,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.04497202514845947,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.03021312201851742,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.3391240908780682,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 5.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.39896007836919917,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.04497202514845947,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.3916694875809041,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09759827264216538,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09897194220101854,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.39896007836919917,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.03021312201851742,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.6038899732842652,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.03021312201851742,
+    "durationScore": 1
+  },
+  {
+    "procedure": 0,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09759827264216538,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.18695781395118544,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.6038899732842652,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.03021312201851742,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.11648970954987996,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.5896212819770226,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.09759827264216538,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.04497202514845947,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09897194220101854,
+    "durationScore": 3
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.1569234041846769,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.34260654853042055,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.03021312201851742,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.18261949424680962,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.07698747912196803,
+    "durationScore": 3
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.47614312896350747,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.08023192816393535,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.18932532522201784,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.38482928364754654,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.03021312201851742,
+    "durationScore": 3
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.04497202514845947,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.18695781395118544,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.41760813791344636,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.07698747912196803,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 2.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.08023192816393535,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 3.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 0,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.18695781395118544,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.09759827264216538,
+    "durationScore": 1
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 1.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09100707997353219,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.3916694875809041,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09759827264216538,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 5.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "FLOOR",
+    "pICU": 0.6038899732842652,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.037749593761029,
+    "durationScore": 2
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 2.0,
+    "riskScore": 3.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.037749593761029,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.11648970954987996,
+    "durationScore": 2
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.23243723910808764,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.11648970954987996,
+    "durationScore": 3
+  },
+  {
+    "procedure": 1,
+    "adverseScore": 2.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.09759827264216538,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 4.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.04497202514845947,
+    "durationScore": 1
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 0.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.01667711688334623,
+    "durationScore": 1
+  },
+  {
+    "procedure": 2,
+    "adverseScore": 4.0,
+    "riskScore": 5.0,
+    "addon": true,
+    "priorLocation": "ICU",
+    "pICU": 0.3916694875809041,
+    "durationScore": 2
+  },
+  {
+    "procedure": 3,
+    "adverseScore": 4.0,
+    "riskScore": 1.0,
+    "addon": true,
+    "priorLocation": "OTHER",
+    "pICU": 0.045334183426674814,
+    "durationScore": 1
+  }
+]

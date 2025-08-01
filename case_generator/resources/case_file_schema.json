@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Case File Schema",
+  "description": "Array of case objects. Can be elective or add-on cases.",
+  "type": "array",
+  "items": {
+    "description": "Case object.",
+    "type": "object",
+    "required": ["procedure", "adverseScore", "riskScore", "addon", "priorLocation", "pICU", "durationScore"],
+    "properties": {
+      "procedure":{
+        "description": "Number corresponding to procedure type.",
+        "type": "number"
+      },
+      "adverseScore": {
+        "description": "Number corresponding to group for adverse event risk.",
+        "type": "number"
+      },
+      "riskScore": {
+        "description": "Number corresponding to group for alternate type of risk (e.g. risk of ICU admission).",
+        "type": "number"
+      },
+      "addon": {
+      "description": "Whether case is an addon or not. If this is an elective case file, this field should be False for all cases. If it is an add-on case file, this field should be true for all cases.",
+        "type": "boolean"
+      },
+      "priorLocation": {
+        "description": "Where patient came from prior to the procedure. Options are: ICU, FLOOR, OTHER. ",
+        "type": "string"
+      },
+      "pICU": {
+        "description": "Probability of a case being discharged to ICU. If want to run without ICU admissions, set every case pICU attribute to 0.",
+        "type": "number"
+      },
+      "durationScore": {
+        "description": "Number corresponding to group for case duration category.",
+        "type": "number"
+      }
+      }
+  }
+}

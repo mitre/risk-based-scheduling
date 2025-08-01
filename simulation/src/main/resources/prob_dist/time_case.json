@@ -1,0 +1,3 @@
+[{"distribution": "Gamma", "params": {"param1": 5.254, "param2": 0.0400, "param3": 1.732}, "segment": {"durationScore": 1, "step": "CathIn"}},
+  {"distribution": "Gamma", "params": {"param1": 12.159, "param2": 0.055, "param3": -25.825}, "segment": {"durationScore": 2, "step": "CathIn"}},
+  {"distribution": "Gamma", "params": {"param1": 14.465, "param2": 0.055, "param3": -23.649}, "segment": {"durationScore": 3, "step": "CathIn"}}]

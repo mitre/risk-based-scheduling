@@ -1,0 +1,304 @@
+{
+    "lab_configs": [
+        {
+            "lab": "A",
+            "schedule": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "day_params": {
+                "Monday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 2,
+                    "attendings": [
+                        "J"
+                    ]
+                },
+                "Tuesday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 2,
+                    "attendings": [
+                        "L"
+                    ]
+                },
+                "Wednesday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 2,
+                    "attendings": [
+                        "K"
+                    ]
+                },
+                "Thursday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 2,
+                    "attendings": [
+                        "J"
+                    ]
+                },
+                "Friday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 2,
+                    "attendings": [
+                        "J"
+                    ]
+                },
+                "Saturday": {
+                    "procedures": [
+                        0
+                    ],
+                    "n_daily_cases": 0,
+                    "attendings": []
+                },
+                "Sunday": {
+                    "procedures": [
+                        0
+                    ],
+                    "n_daily_cases": 0,
+                    "attendings": []
+                }
+            }
+        },
+        {
+            "lab": "B",
+            "schedule": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "day_params": {
+                "Monday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 2,
+                    "attendings": [
+                        "K"
+                    ]
+                },
+                "Tuesday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 2,
+                    "attendings": [
+                        "M"
+                    ]
+                },
+                "Wednesday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 2,
+                    "attendings": [
+                        "L"
+                    ]
+                },
+                "Thursday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 2,
+                    "attendings": [
+                        "K"
+                    ]
+                },
+                "Friday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 2,
+                    "attendings": [
+                        "L"
+                    ]
+                },
+                "Saturday": {
+                    "procedures": [
+                        0
+                    ],
+                    "n_daily_cases": 0,
+                    "attendings": []
+                },
+                "Sunday": {
+                    "procedures": [
+                        0
+                    ],
+                    "n_daily_cases": 0,
+                    "attendings": []
+                }
+            }
+        },
+        {
+            "lab": "C",
+            "schedule": [],
+            "day_params": {
+                "Monday": {
+                    "procedures": [
+                        0
+                    ],
+                    "n_daily_cases": 4,
+                    "attendings": [
+                        "N"
+                    ]
+                },
+                "Tuesday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 0,
+                    "attendings": []
+                },
+                "Wednesday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 2,
+                    "attendings": [
+                        "M"
+                    ]
+                },
+                "Thursday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 2,
+                    "attendings": [
+                        "M"
+                    ]
+                },
+                "Friday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 0,
+                    "attendings": []
+                },
+                "Saturday": {
+                    "procedures": [
+                        0
+                    ],
+                    "n_daily_cases": 0,
+                    "attendings": []
+                },
+                "Sunday": {
+                    "procedures": [
+                        0
+                    ],
+                    "n_daily_cases": 0,
+                    "attendings": []
+                }
+            }
+        },
+        {
+            "lab": "D",
+            "schedule": [
+                "Thursday"
+            ],
+            "day_params": {
+                "Monday": {
+                    "procedures": [
+                        0
+                    ],
+                    "n_daily_cases": 0,
+                    "attendings": [
+                        "N"
+                    ]
+                },
+                "Tuesday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 0,
+                    "attendings": []
+                },
+                "Wednesday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 0,
+                    "attendings": [
+                        "M"
+                    ]
+                },
+                "Thursday": {
+                    "procedures": [
+                        0
+                    ],
+                    "n_daily_cases": 2,
+                    "attendings": [
+                        "O"
+                    ]
+                },
+                "Friday": {
+                    "procedures": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "n_daily_cases": 0,
+                    "attendings": []
+                },
+                "Saturday": {
+                    "procedures": [
+                        0
+                    ],
+                    "n_daily_cases": 0,
+                    "attendings": []
+                },
+                "Sunday": {
+                    "procedures": [
+                        0
+                    ],
+                    "n_daily_cases": 0,
+                    "attendings": []
+                }
+            }
+        }
+    ]
+}

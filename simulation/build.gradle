@@ -1,0 +1,68 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'org.mitre'
+version '1.0-SNAPSHOT'
+mainClassName = 'org.mitre.bch.cath.simulation.app.API'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+
+}
+
+
+task fatJar(type: Jar) {
+    manifest {
+        attributes('Implementation-Title': mainClassName,
+                'Implementation-Version': project.version,
+                'Main-Class': mainClassName)
+    }
+    duplicatesStrategy = DuplicatesStrategy.WARN;
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    with jar
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation('com.google.guava:guava:31.1-jre')
+
+    implementation group: 'io.javalin', name: 'javalin', version: '3.13.7'
+    implementation group: 'org.slf4j', name: 'slf4j-log4j12', version: '2.0.0'
+    implementation group: 'org.jfree', name: 'jcommon', version: '1.0.21'
+    implementation group: 'org.jfree', name: 'jfreechart', version: '1.0.17'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
+    implementation group: 'org.apache.commons', name: 'commons-math3', version: '3.6.1'
+    implementation group: 'org.apache.commons', name: 'commons-csv', version: '1.4'
+    implementation group: 'commons-cli', name: 'commons-cli', version: '1.5.0'
+    implementation group: 'commons-io', name: 'commons-io', version: '2.6'
+
+    implementation files('lib/mason.19.jar')
+    implementation files('lib/j3dcore.jar')
+    implementation files('lib/j3dutils.jar')
+    implementation files('lib/portfolio.jar')
+    implementation files('lib/vecmath.jar')
+
+    implementation group: 'com.itextpdf', name: 'itextpdf', version: '5.5.13.2'
+    implementation group: 'javax.media', name: 'jmf', version: '2.1.1e'
+
+    implementation group: 'com.github.haifengl', name: 'smile-core', version: '2.6.0'
+
+    implementation("io.javalin:javalin:5.3.2")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.14.0")
+
+    implementation group: 'org.mlflow', name: 'mlflow-client', version: '2.1.1'
+
+    implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.9'
+
+    implementation group: 'com.networknt', name: 'json-schema-validator', version: '1.0.87'
+}

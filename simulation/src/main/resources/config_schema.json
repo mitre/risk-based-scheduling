@@ -1,0 +1,277 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Risk-Based Scheduling Simulation Configuration Schema ",
+  "type": "object",
+  "required": ["labs", "procedures","resources", "pushing", "pushCases", "startTime", "endTime", "earlyEndTime", "pushCriteria"],
+  "properties": {
+    "labs": {
+      "type": "array",
+      "description": "Array of labs.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "description": "Lab parameters.",
+        "required": ["id", "name", "labType", "weekdays", "preferred"],
+        "properties": {
+          "id": {
+            "type": "number",
+            "description": "Lab ID."
+          },
+          "name": {
+            "type": "string",
+            "description": "Lab name."
+          },
+          "labType": {
+            "type": "string",
+            "description": "Type of lab."
+          },
+          "weekdays": {
+            "type": "array",
+            "description": "Days the lab is available for add-on scheduling. Days should be listed as day-of-the-week names, e.g. [Monday, Wednesday, Friday]. Can be an empty array.",
+            "items": {
+              "type": "number",
+              "description": "Day of the week name, e.g. Monday."
+            }
+          },
+          "preferred": {
+            "type": "array",
+            "description": "Days the lab is preferred for add-on scheduling. Days should be listed as day-of-the-week names, e.g. [Monday, Wednesday, Friday]. Can be an empty array.",
+            "items": {
+              "type": "number",
+              "description": "Day of the week name, e.g. Monday."
+            }
+          }
+        }
+      }
+    },
+    "procedures": {
+      "description": "Array of procedures.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "description": "Procedure parameters.",
+        "required": ["id", "name", "labType", "steps"],
+        "properties": {
+          "id": {
+            "type": "number",
+            "description": "Procedure ID."
+          },
+          "name": {
+            "type": "string",
+            "description": "Procedure name."
+          },
+          "labType": {
+            "type": "string",
+            "description": "Type of lab in which the procedure can be performed."
+          },
+          "steps": {
+            "type": "object",
+            "description": "Steps of the procedure.",
+            "properties": {
+              "CathIn": {
+                "type": "object",
+                "description": "Step parameters.",
+                "required": ["resources", "rescueResources"],
+                "properties": {
+                  "resources": {
+                    "type": "object",
+                    "description": "Resources needed for this step.",
+                    "required": ["Interventionist", "Anesthesiologist"],
+                    "properties": {
+                      "Interventionist": {
+                        "type": "number",
+                        "description": "Number of Interventionists needed for this step."
+                      },
+                      "Anesthesiologist": {
+                        "type": "number",
+                        "description": "Number of Anesthesiologists needed for this step."
+                      }
+                    }
+                  },
+                  "rescueResources": {
+                    "type": "object",
+                    "description": "Rescue resources needed for this step if AE occurs.",
+                    "required": ["ICU"],
+                    "properties": {
+                      "ICU": {
+                        "type": "number",
+                        "description": "Number of ICU beds needed for rescue during this step if AE occurs."
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "resources": {
+      "type": "array",
+      "description": "Array of resources.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "description": "Resource parameters.",
+        "required": ["type", "name"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "Type of resource."
+          },
+          "name": {
+            "type": "string",
+            "description": "Name of resource."
+          },
+          "instances": {
+            "type": "array",
+            "description": "Array of instances of resource type.",
+            "items": {
+              "type": "object",
+              "description": "Resource instance.",
+              "required": ["name", "schedule"],
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "Name of resource instance."
+                },
+                "schedule": {
+                  "type": "array",
+                  "description": "Array of day of week schedule for resource instance.",
+                  "items": {
+                    "type": "object",
+                    "description": "Schedule of resource instance.",
+                    "required": [
+                      "dayOfWeek",
+                      "lab",
+                      "startTime",
+                      "endTime"
+                    ],
+                    "properties": {
+                      "dayOfWeek": {
+                        "type": "number",
+                        "description": "Day of week this resource will be working. 0 -> Monday, 1 -> Tuesday, 2 -> Wednesday, 3 -> Thursday, 4 -> Friday, 5 -> Saturday, 6 -> Sunday."
+                      },
+                      "lab": {
+                        "type": "number",
+                        "description": "Lab ID where this resource will be located."
+                      },
+                      "startTime": {
+                        "type": "number",
+                        "description": "Minute of the day that the resource will start working in given lab on given day of the week, e.g. 360 = 6:00am"
+                      },
+                      "endTime": {
+                        "type": "number",
+                        "description": "Minute of the day that the resource will stop working in given lab on given day of the week, e.g. 1080 = 6:00pm"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "total": {
+            "type": "number",
+            "description": "Total number available when there is no need to differentiate between instances, e.g. equipment (ECMO) or place (ICU) resources"
+          }
+        }
+      }
+    },
+    "pushing": {
+      "type": "array",
+      "description": "Array of parameters for pushing cases.",
+      "items": {
+        "type": "object",
+        "description": "Parameters for pushing cases.",
+        "required": [
+          "urgency",
+          "bumpThresh",
+          "pushBooleans"
+        ],
+        "properties": {
+          "urgency": {
+            "type": "string",
+            "description": "Add-on urgency type."
+          },
+          "bumpThresh": {
+            "type": "number",
+            "description": "Points contributed to bump threshold."
+          },
+          "pushBooleans": {
+            "type": "object",
+            "description": "Booleans related to pushing add-on cases.",
+            "required": [
+              "endOfDay",
+              "skipToday",
+              "skipWeekend"
+            ],
+            "properties": {
+              "endOfDay": {
+                "type": "boolean",
+                "description": "Push to end of day."
+              },
+              "skipToday": {
+                "type": "boolean",
+                "description": "Skip today."
+              },
+              "skipWeekend": {
+                "type": "boolean",
+                "description": "Skip weekend."
+              }
+            }
+          }
+        }
+      }
+    },
+    "pushCases": {
+      "type": "boolean",
+      "description": "Whether or not to push add-on cases."
+    },
+    "startTime": {
+      "type": "number",
+      "description": "Hour of the day that scheduled cases start. e.g. 8 = 8:00am."
+    },
+    "endTime": {
+      "type": "number",
+      "description": "Hour of the day that scheduled cases should ideally be over by. e.g. 17 = 5:00pm."
+    },
+    "earlyEndTime": {
+      "type": "number",
+      "description": "Hour of the day is considered an early end time, i.e. another case should be able to be completed by endTime. e.g. 14 = 2:00pm."
+    },
+    "pushCriteria": {
+      "type": "array",
+      "description": "Array of criteria / rules for pushing add-on cases.",
+      "items": {
+        "type": "object",
+        "description": "A rule for pushing add-on cases.",
+        "required": ["name", "active", "caseLevels", "thresholds"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of rule."
+          },
+          "active": {
+            "type": "boolean",
+            "description": "Whether rule is active."
+          },
+          "caseLevels": {
+            "type": "array",
+            "description": "Array of case levels that rule applies to.",
+            "items": {
+              "type": "string",
+              "description": "Case level name, e.g. NORMAL, URGENT, EMERGENCY."
+            }
+          },
+          "thresholds": {
+            "type": "object",
+            "description": "Threshold properties for given push criteria rule."
+          }
+        }
+      }
+    }
+  }
+}

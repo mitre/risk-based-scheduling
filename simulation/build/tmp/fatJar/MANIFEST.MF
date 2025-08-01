@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: org.mitre.bch.cath.simulation.app.API
+Implementation-Version: 1.0-SNAPSHOT
+Main-Class: org.mitre.bch.cath.simulation.app.API
+

@@ -1,0 +1,697 @@
+{
+  "labs": [
+    {
+      "id": 0,
+      "name": "Lab A",
+      "labType": "CATH",
+      "weekdays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "preferred": []
+    },
+    {
+      "id": 1,
+      "name": "Lab B",
+      "labType": "CATH",
+      "weekdays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "preferred": []
+    },
+    {
+      "id": 2,
+      "name": "Lab C",
+      "labType": "CATH",
+      "weekdays": [],
+      "preferred": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Lab D",
+      "labType": "CATH",
+      "weekdays": [],
+      "preferred": []
+    }
+  ],
+  "procedures": [
+    {
+      "id": 0,
+      "name": "Biopsy",
+      "labType": "CATH",
+      "steps": {
+        "CathIn": {
+          "resources": {
+            "Interventionist": 1,
+            "Anesthesiologist": 1
+          },
+          "rescueResources": {
+            "ICU": 1
+          }
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "Diagnostic",
+      "labType": "CATH",
+      "steps": {
+        "CathIn": {
+          "resources": {
+            "Interventionist": 1,
+            "Anesthesiologist": 1
+          },
+          "rescueResources": {
+            "ICU": 1
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Interventional",
+      "labType": "CATH",
+      "steps": {
+        "CathIn": {
+          "resources": {
+            "Interventionist": 1,
+            "Anesthesiologist": 1
+          },
+          "rescueResources": {
+            "ICU": 1
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Other",
+      "labType": "CATH",
+      "steps": {
+        "CathIn": {
+          "resources": {
+            "Interventionist": 1,
+            "Anesthesiologist": 1
+          },
+          "rescueResources": {
+            "ICU": 1
+          }
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "id": 0,
+      "type": "DURING",
+      "name": "CathIn"
+    }
+  ],
+  "resources": [
+    {
+      "type": "STAFF",
+      "name": "Interventionist",
+      "instances": [
+        {
+          "name": "Interventionist 1",
+          "schedule": [
+            {
+              "dayOfWeek": 0,
+              "lab": 0,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 1,
+              "lab": 0,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 2,
+              "lab": 0,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 3,
+              "lab": 0,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 4,
+              "lab": 0,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 5,
+              "lab": 0,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 6,
+              "lab": 0,
+              "startTime": 360,
+              "endTime": 1080
+            }
+          ]
+        },
+        {
+          "name": "Interventionist 2",
+          "schedule": [
+            {
+              "dayOfWeek": 0,
+              "lab": 1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 1,
+              "lab": 1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 2,
+              "lab": 1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 3,
+              "lab": 1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 4,
+              "lab": 1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 5,
+              "lab": 1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 6,
+              "lab": 1,
+              "startTime": 360,
+              "endTime": 1080
+            }
+          ]
+        },
+        {
+          "name": "Interventionist 3",
+          "schedule": [
+            {
+              "dayOfWeek": 0,
+              "lab": 2,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 1,
+              "lab": 2,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 2,
+              "lab": 2,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 3,
+              "lab": 2,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 4,
+              "lab": 2,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 5,
+              "lab": 2,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 6,
+              "lab": 2,
+              "startTime": 360,
+              "endTime": 1080
+            }
+          ]
+        },
+        {
+          "name": "Interventionist 4",
+          "schedule": [
+            {
+              "dayOfWeek": 0,
+              "lab": 3,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 1,
+              "lab": 3,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 2,
+              "lab": 3,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 3,
+              "lab": 3,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 4,
+              "lab": 3,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 5,
+              "lab": 3,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 6,
+              "lab": 3,
+              "startTime": 360,
+              "endTime": 1080
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "STAFF",
+      "name": "Anesthesiologist",
+      "instances": [
+        {
+          "name": "Anesthesiologist 1",
+          "schedule": [
+            {
+              "dayOfWeek": 0,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 1,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 2,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 3,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 4,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 5,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 6,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            }
+          ]
+        },
+        {
+          "name": "Anesthesiologist 2",
+          "schedule": [
+            {
+              "dayOfWeek": 0,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 1,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 2,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 3,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 4,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 5,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 6,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            }
+          ]
+        },
+        {
+          "name": "Anesthesiologist 3",
+          "schedule": [
+            {
+              "dayOfWeek": 0,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 1,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 2,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 3,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 4,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 5,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 6,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            }
+          ]
+        },
+        {
+          "name": "Anesthesiologist 4",
+          "schedule": [
+            {
+              "dayOfWeek": 0,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 1,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 2,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 3,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 4,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 5,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            },
+            {
+              "dayOfWeek": 6,
+              "lab": -1,
+              "startTime": 360,
+              "endTime": 1080
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "EQUIPMENT",
+      "name": "ECMO",
+      "total": 3
+    },
+    {
+      "type": "PLACE",
+      "name": "ICU",
+      "total": 2
+    }
+  ],
+  "pushing": [
+    {
+      "urgency": "EMERGENCY",
+      "bumpThresh": 0,
+      "pushBooleans": {
+        "endOfDay": false,
+        "skipToday": true,
+        "skipWeekend": false
+      }
+    },
+    {
+      "urgency": "URGENT",
+      "bumpThresh": 1,
+      "pushBooleans": {
+        "endOfDay": false,
+        "skipToday": true,
+        "skipWeekend": false
+      }
+    },
+    {
+      "urgency": "NORMAL",
+      "bumpThresh": 3,
+      "pushBooleans": {
+        "endOfDay": true,
+        "skipToday": true,
+        "skipWeekend": true
+      }
+    }
+  ],
+  "startDate": "2018-01-01",
+  "pushCases": true,
+  "startTime": 8,
+  "endTime": 17,
+  "earlyEndTime": 14,
+  "pAEThresholds": {
+    "medium": 0.11,
+    "high": 0.22
+  },
+  "pICUThresholds": {
+    "medium": 0.3,
+    "high": 0.51
+  },
+  "pushCriteria": [
+    {
+      "name": "currentLabsRunning",
+      "active": true,
+      "caseLevels": [
+        "NORMAL",
+        "URGENT"
+      ],
+      "thresholds": {
+        "num": 2
+      }
+    },
+    {
+      "name": "aeMediumCount",
+      "active": false,
+      "caseLevels": [],
+      "thresholds": {
+        "num": 2
+      }
+    },
+    {
+      "name": "aeHighCount",
+      "active": false,
+      "caseLevels": [],
+      "thresholds": {
+        "num": 1
+      }
+    },
+    {
+      "name": "aeAnyCount",
+      "active": false,
+      "caseLevels": [],
+      "thresholds": {
+        "num": 3
+      }
+    },
+    {
+      "name": "aeWeightedThreshold",
+      "active": true,
+      "caseLevels": [
+        "NORMAL"
+      ],
+      "thresholds": {
+        "coefMED": 1,
+        "coefHIGH": 2,
+        "thresh": 2
+      }
+    },
+    {
+      "name": "MediumRiskCount",
+      "active": false,
+      "caseLevels": [],
+      "thresholds": {
+        "num": 4
+      }
+    },
+    {
+      "name": "HighRiskCount",
+      "active": false,
+      "caseLevels": [],
+      "thresholds": {
+        "num": 2
+      }
+    },
+    {
+      "name": "MixedRiskThreshold",
+      "active": true,
+      "caseLevels": [
+        "NORMAL"
+      ],
+      "thresholds": {
+        "coefMED": 1,
+        "coefHIGH": 2,
+        "thresh": 4
+      }
+    },
+    {
+      "name": "currentHighRisk",
+      "active": true,
+      "caseLevels": [
+        "NORMAL"
+      ],
+      "thresholds": {
+        "num": 1,
+        "hourRecency": 2
+      }
+    },
+    {
+      "name": "currentMediumRisk",
+      "active": false,
+      "caseLevels": [
+        "NORMAL"
+      ],
+      "thresholds": {
+        "num": 1,
+        "hourRecency": 2
+      }
+    },
+    {
+      "name": "currentHighAERisk",
+      "active": true,
+      "caseLevels": [
+        "NORMAL"
+      ],
+      "thresholds": {
+        "num": 1
+      }
+    },
+    {
+      "name": "currentMediumAERisk",
+      "active": false,
+      "caseLevels": [
+        "NORMAL"
+      ],
+      "thresholds": {
+        "num": 1
+      }
+    },
+    {
+      "name": "currentExpectedLongCase",
+      "active": true,
+      "caseLevels": [
+        "NORMAL"
+      ],
+      "thresholds": {
+        "num": 1,
+        "hourDuration": 2
+      }
+    }
+  ]
+}

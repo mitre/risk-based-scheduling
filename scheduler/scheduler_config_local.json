@@ -1,0 +1,23 @@
+{
+  "start_date": "2018-01-01",
+  "end_date": "2018-12-31",
+  "case_arrivals": {
+    "distribution": "Poisson",
+    "params": [3.5],
+    "time_window": 8,
+    "lead_weeks": 8,
+    "warmup_weeks": 68
+  },
+  "config_files":
+    {
+      "lab": "resources/lab_config_template.json",
+      "scheduling": "resources/scheduling_rules_template.json"
+    },
+  "case_file": "case_file",
+  "algo_name": "PointsSplit",
+  "reorder_cases": {
+    "whether": false,
+    "what": "pICU"
+  },
+  "json_file": "schedule.json"
+}

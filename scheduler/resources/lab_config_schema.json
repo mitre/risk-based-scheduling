@@ -1,0 +1,225 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Lab Configuration Schema",
+  "type": "object",
+  "required": ["lab_configs"],
+  "properties": {
+    "lab_configs": {
+      "type": "array",
+      "description": "Array containing config for each Lab object.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "description": "Lab object.",
+        "required": ["lab", "schedule", "day_params"],
+        "properties": {
+          "lab": {
+            "type": "string",
+            "description": "Lab name."
+          },
+          "schedule": {
+            "type": "array",
+            "description": "Array of days that the lab is open for elective case scheduling. Days should be listed as day-of-the-week names, e.g. [Monday, Wednesday, Friday]. Can be an empty array.",
+            "items": {
+              "type": "string",
+              "description": "Day of the week name, e.g. Monday."
+            }
+          },
+          "day_params": {
+            "type": "object",
+            "description": "Configuration parameters for each day of the week.",
+            "required": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "properties": {
+              "Monday": {
+                "type": "object",
+                "description": "Lab configuration parameters for Monday.",
+                "required": ["procedures", "n_daily_cases", "attendings"],
+                "properties": {
+                  "procedures": {
+                    "type": "array",
+                    "description": "Array of procedure types that can be done in this lab on this day of the week."
+                  },
+                  "n_daily_cases": {
+                    "type": "number",
+                    "description": "Number of case slots to have in this lab on this day of the week."
+                  },
+                  "attendings": {
+                    "type": "array",
+                    "description": "Array of attendings working in this lab on this day of the week.",
+                    "items": {
+                      "type": "string",
+                      "description": "Name of attending."
+                    }
+                  }
+                }
+              },
+              "Tuesday": {
+                "type": "object",
+                "description": "Lab configuration parameters for Tuesday.",
+                "required": [
+                  "procedures",
+                  "n_daily_cases",
+                  "attendings"
+                ],
+                "properties": {
+                  "procedures": {
+                    "type": "array",
+                    "description": "Array of procedure types that can be done in this lab on this day of the week."
+                  },
+                  "n_daily_cases": {
+                    "type": "number",
+                    "description": "Number of case slots to have in this lab on this day of the week."
+                  },
+                  "attendings": {
+                    "type": "array",
+                    "description": "Array of attendings working in this lab on this day of the week. Should have at least 1 attending listed.",
+                    "items": {
+                      "type": "string",
+                      "description": "Name of attending."
+                    }
+                  }
+                }
+              },
+              "Wednesday": {
+                "type": "object",
+                "description": "Lab configuration parameters for Wednesday.",
+                "required": [
+                  "procedures",
+                  "n_daily_cases",
+                  "attendings"
+                ],
+                "properties": {
+                  "procedures": {
+                    "type": "array",
+                    "description": "Array of procedure types that can be done in this lab on this day of the week."
+                  },
+                  "n_daily_cases": {
+                    "type": "number",
+                    "description": "Number of case slots to have in this lab on this day of the week."
+                  },
+                  "attendings": {
+                    "type": "array",
+                    "description": "Array of attendings working in this lab on this day of the week. Should have at least 1 attending listed.",
+                    "items": {
+                      "type": "string",
+                      "description": "Name of attending."
+                    }
+                  }
+                }
+              },
+              "Thursday": {
+                "type": "object",
+                "description": "Lab configuration parameters for Thursday.",
+                "required": [
+                  "procedures",
+                  "n_daily_cases",
+                  "attendings"
+                ],
+                "properties": {
+                  "procedures": {
+                    "type": "array",
+                    "description": "Array of procedure types that can be done in this lab on this day of the week."
+                  },
+                  "n_daily_cases": {
+                    "type": "number",
+                    "description": "Number of case slots to have in this lab on this day of the week."
+                  },
+                  "attendings": {
+                    "type": "array",
+                    "description": "Array of attendings working in this lab on this day of the week. Should have at least 1 attending listed.",
+                    "items": {
+                      "type": "string",
+                      "description": "Name of attending."
+                    }
+                  }
+                }
+              },
+              "Friday": {
+                "type": "object",
+                "description": "Lab configuration parameters for Friday.",
+                "required": [
+                  "procedures",
+                  "n_daily_cases",
+                  "attendings"
+                ],
+                "properties": {
+                  "procedures": {
+                    "type": "array",
+                    "description": "Array of procedure types that can be done in this lab on this day of the week."
+                  },
+                  "n_daily_cases": {
+                    "type": "number",
+                    "description": "Number of case slots to have in this lab on this day of the week."
+                  },
+                  "attendings": {
+                    "type": "array",
+                    "description": "Array of attendings working in this lab on this day of the week. Should have at least 1 attending listed.",
+                    "items": {
+                      "type": "string",
+                      "description": "Name of attending."
+                    }
+                  }
+                }
+              },
+              "Saturday": {
+                "type": "object",
+                "description": "Lab configuration parameters for Saturday.",
+                "required": [
+                  "procedures",
+                  "n_daily_cases",
+                  "attendings"
+                ],
+                "properties": {
+                  "procedures": {
+                    "type": "array",
+                    "description": "Array of procedure types that can be done in this lab on this day of the week."
+                  },
+                  "n_daily_cases": {
+                    "type": "number",
+                    "description": "Number of case slots to have in this lab on this day of the week."
+                  },
+                  "attendings": {
+                    "type": "array",
+                    "description": "Array of attendings working in this lab on this day of the week. Should have at least 1 attending listed.",
+                    "items": {
+                      "type": "string",
+                      "description": "Name of attending."
+                    }
+                  }
+                }
+              },
+              "Sunday": {
+                "type": "object",
+                "description": "Lab configuration parameters for Sunday.",
+                "required": [
+                  "procedures",
+                  "n_daily_cases",
+                  "attendings"
+                ],
+                "properties": {
+                  "procedures": {
+                    "type": "array",
+                    "description": "Array of procedure types that can be done in this lab on this day of the week."
+                  },
+                  "n_daily_cases": {
+                    "type": "number",
+                    "description": "Number of case slots to have in this lab on this day of the week."
+                  },
+                  "attendings": {
+                    "type": "array",
+                    "description": "Array of attendings working in this lab on this day of the week. Should have at least 1 attending listed.",
+                    "items": {
+                      "type": "string",
+                      "description": "Name of attending."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema", 
+    "title": "Scheduling Rules Schema",
+    "type": "object",
+    "required": ["point_system"],
+    "properties": {
+      "point_system": {
+        "description": "Defines metrics and levels for point system.",
+        "type": "object",
+        "required": [ "active", "ignore_cases", "overall_limits", "attribute_importance_order", "added_slot_attribute", "attributes"],
+        "properties": {
+          "active": {
+            "description": "Boolean describing state of point system. If want option to use in Points or Points Split heuristic, then true. Otherwise, false.  ",
+            "type": "boolean"
+          },
+          "ignore_cases": {
+              "description": "Array containing info for any cases that should be excluded from the points system (are the equivalent to 0 points).",
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["attribute", "values"],
+                "properties": {
+                  "attribute": {
+                    "description": "Name of the case attribute.",
+                    "type": "string"
+                  },
+                  "values": {
+                    "description": "Values of case attribute that should be excluded from points system.",
+                    "type": "array"
+                  }
+                }
+              }
+          },
+          "overall_limits": {
+            "description": "Daily point limits for overall complexity points (sum of all active point system attributes) to be used with Points heuristic.",
+            "type": "object",
+            "required": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "properties": {
+              "Monday": {
+                "description": "Cumulative daily point limit across all open labs for Mondays.",
+                "type": "number"
+              },
+              "Tuesday": {
+                "description": "Cumulative daily point limit across all open labs for Tuesdays.",
+                "type": "number"
+              },
+              "Wednesday": {
+                "description": "Cumulative daily point limit across all open labs for Wednesdays.",
+                "type": "number"
+              },
+              "Thursday": {
+                "description": "Cumulative daily point limit across all open labs for Thursdays.",
+                "type": "number"
+              },
+              "Friday": {
+                "description": "Cumulative daily point limit across all open labs for Fridays.",
+                "type": "number"
+              },
+              "Saturday": {
+                "description": "Cumulative daily point limit across all open labs for Saturdays.",
+                "type": "number"
+              },
+              "Sunday": {
+                "description": "Cumulative daily point limit across all open labs for Sundays.",
+                "type": "number"
+              }
+            }
+          },
+          "attribute_importance_order": {
+            "description": "The order of importance of point system attributes in the case that a point limit constraint must be violated. Will violate less important attributes first.",
+            "type": "array",
+            "items": {
+              "description": "Name of point system attribute. Should correspond to attribute names below.",
+              "type": "string"
+            }
+          },
+          "added_slot_attribute": {
+            "description": "Point system attribute to minimize in the case of needing to add an additional slot to a day. i.e. will place the case in an additional slot in the lab/day with the lowest number of this type of points. Should correspond to attribute name below or be 'overall' to minimize sum of all points.",
+            "type": "string"
+          },
+          "attributes": {
+            "description": "Array containing metrics that contribute to the points system.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [ "name", "active", "which", "point_limits", "case_attribute","levels"],
+              "properties": {
+                "name": {
+                    "description": "Name of the metric.",
+                    "type": "string"
+                },
+                "active": {
+                    "description": "Whether to include metric in point system.",
+                    "type": "boolean"
+                },
+                "which": {
+                  "description": "Whether to apply attribute points constraints at the day or lab-level for the Points Split heuristic. Value should be 'day' or 'lab'",
+                  "type": "string"
+                },
+                "point_limits": {
+                  "description": "Point limits for attribute points to be applied at day or lab level for use with Points Split heuristic.",
+                  "type": "object",
+                  "required": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                  "properties": {
+                    "Monday": {
+                      "description": "Attribute point limit at day or lab level on Mondays.",
+                      "type": "number"
+                    },
+                    "Tuesday": {
+                      "description": "Attribute point limit at day or lab level on Tuesdays.",
+                      "type": "number"
+                    },
+                    "Wednesday": {
+                      "description": "Attribute point limit at day or lab level on Wednesdays.",
+                      "type": "number"
+                    },
+                    "Thursday": {
+                      "description": "Attribute point limit at day or lab level on Thursdays.",
+                      "type": "number"
+                    },
+                    "Friday": {
+                      "description": "Attribute point limit at day or lab level on Fridays.",
+                      "type": "number"
+                    },
+                    "Saturday": {
+                      "description": "Attribute point limit at day or lab level on Saturdays.",
+                      "type": "number"
+                    },
+                    "Sunday": {
+                      "description": "Attribute point limit at day or lab level on Sundays.",
+                      "type": "number"
+                    }
+                  }
+                },
+                "case_attribute": {
+                  "description": "Name of case atttribute in incoming case file. Should match name attribute in json case file.",
+                  "type": "string"
+                },
+                "levels": {
+                  "description": "Array of point value thresholds and associated point value corresponding to different levels of the metric (e.g. low, medium, and high levels). Defines point groups for this attribute.",
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["name", "upperbound", "points"],
+                    "properties": {
+                      "name": {
+                        "description": "Name of category/level.",
+                        "type": "string"
+                      },
+                      "upperbound": {
+                        "description": "Upperbound threshold of attribute defining this category/level. Lowerbound will be the upperbound of the previous element of the array (or zero if first element). Should be a number or null if there is no upperbound (last element in array)."
+                      },
+                      "points": {
+                        "description": "Point value associated with this level of the metric.",
+                        "type": "number"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

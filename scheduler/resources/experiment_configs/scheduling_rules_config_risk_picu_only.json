@@ -1,0 +1,136 @@
+{
+  "point_system": {
+    "active": true,
+    "ignore_cases": [
+      {
+        "attribute": "procedure",
+        "values": [0]
+      }
+    ],
+    "overall_limits": {"Monday": 16, "Tuesday": 16, "Wednesday": 16, "Thursday": 16, "Friday": 16, "Saturday": 0, "Sunday": 0},
+    "attribute_importance_order": ["picu_risk"],
+    "added_slot_attribute": "picu_risk",
+    "attributes": [
+      {
+        "name": "picu_risk",
+        "active": true,
+        "which": "day",
+        "point_limits": {"Monday": 8, "Tuesday": 8, "Wednesday": 8, "Thursday": 8, "Friday": 8, "Saturday": 0, "Sunday": 0},
+        "case_attribute": "pICU",
+        "levels": [
+          {
+            "name": "low",
+            "upperbound": 0.1,
+            "points": 1
+          },
+          {
+            "name": "medium",
+            "upperbound": 0.3,
+            "points": 2
+          },
+          {
+            "name": "high",
+            "upperbound": null,
+            "points": 3
+          }
+        ]
+      },
+      {
+        "name": "duration",
+        "active": false,
+        "which": "lab",
+        "point_limits": {"Monday": 4, "Tuesday": 4, "Wednesday": 4, "Thursday": 4, "Friday": 4, "Saturday": 0, "Sunday": 0},
+        "case_attribute": "radRisk",
+        "levels": [
+          {
+            "name": "low",
+            "upperbound": 1,
+            "points": 1
+          },
+          {
+            "name": "medium",
+            "upperbound": 2,
+            "points": 2
+          },
+          {
+            "name": "high",
+            "upperbound": null,
+            "points": 3
+          }
+        ]
+      },
+      {
+        "name": "duration_ideal",
+        "active": false,
+        "which": "lab",
+        "point_limits": {"Monday": 4, "Tuesday": 4, "Wednesday": 4, "Thursday": 4, "Friday": 4, "Saturday": 0, "Sunday": 0},
+        "case_attribute": "exp_duration",
+        "levels": [
+          {
+            "name": "low",
+            "upperbound": 90,
+            "points": 1
+          },
+          {
+            "name": "medium",
+            "upperbound": 180,
+            "points": 2
+          },
+          {
+            "name": "high",
+            "upperbound": null,
+            "points": 3
+          }
+        ]
+      },
+      {
+        "name": "raw_predict",
+        "active": false,
+        "which": "day",
+        "point_limits": {"Monday": 8, "Tuesday": 8, "Wednesday": 8, "Thursday": 8, "Friday": 8, "Saturday": 0, "Sunday": 0},
+        "case_attribute": "predict",
+        "levels": [
+          {
+            "name": "low",
+            "upperbound": 2,
+            "points": 1
+          },
+          {
+            "name": "medium",
+            "upperbound": 4,
+            "points": 2
+          },
+          {
+            "name": "high",
+            "upperbound": null,
+            "points": 3
+          }
+        ]
+      },
+      {
+        "name": "raw_icatch",
+        "active": false,
+        "which": "day",
+        "point_limits": {"Monday": 8, "Tuesday": 8, "Wednesday": 8, "Thursday": 8, "Friday": 8, "Saturday": 0, "Sunday": 0},
+        "case_attribute": "icatch",
+        "levels": [
+          {
+            "name": "low",
+            "upperbound": 2,
+            "points": 1
+          },
+          {
+            "name": "medium",
+            "upperbound": 4,
+            "points": 2
+          },
+          {
+            "name": "high",
+            "upperbound": null,
+            "points": 3
+          }
+        ]
+      }
+    ]
+  }
+}

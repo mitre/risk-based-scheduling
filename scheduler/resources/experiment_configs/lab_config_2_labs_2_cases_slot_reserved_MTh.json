@@ -1,0 +1,304 @@
+{
+  "lab_configs": [
+    {
+      "lab": "A",
+      "schedule": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "day_params": {
+        "Monday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 2,
+          "attending": [
+            "J"
+          ]
+        },
+        "Tuesday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 2,
+          "attending": [
+            "L"
+          ]
+        },
+        "Wednesday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 2,
+          "attending": [
+            "K"
+          ]
+        },
+        "Thursday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 2,
+          "attending": [
+            "J"
+          ]
+        },
+        "Friday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 2,
+          "attending": [
+            "J"
+          ]
+        },
+        "Saturday": {
+          "procedures": [
+            0
+          ],
+          "n_daily_cases": 0,
+          "attending": []
+        },
+        "Sunday": {
+          "procedures": [
+            0
+          ],
+          "n_daily_cases": 0,
+          "attending": []
+        }
+      }
+    },
+    {
+      "lab": "B",
+      "schedule": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "day_params": {
+        "Monday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 1,
+          "attending": [
+            "K"
+          ]
+        },
+        "Tuesday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 2,
+          "attending": [
+            "M"
+          ]
+        },
+        "Wednesday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 2,
+          "attending": [
+            "L"
+          ]
+        },
+        "Thursday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 1,
+          "attending": [
+            "K"
+          ]
+        },
+        "Friday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 2,
+          "attending": [
+            "L"
+          ]
+        },
+        "Saturday": {
+          "procedures": [
+            0
+          ],
+          "n_daily_cases": 0,
+          "attending": []
+        },
+        "Sunday": {
+          "procedures": [
+            0
+          ],
+          "n_daily_cases": 0,
+          "attending": []
+        }
+      }
+    },
+    {
+      "lab": "C",
+      "schedule": [
+      ],
+      "day_params": {
+        "Monday": {
+          "procedures": [
+            0
+          ],
+          "n_daily_cases": 0,
+          "attending": [
+            "N"
+          ]
+        },
+        "Tuesday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 0,
+          "attending": []
+        },
+        "Wednesday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 0,
+          "attending": [
+            "M"
+          ]
+        },
+        "Thursday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 0,
+          "attending": [
+            "M"
+          ]
+        },
+        "Friday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 0,
+          "attending": []
+        },
+        "Saturday": {
+          "procedures": [
+            0
+          ],
+          "n_daily_cases": 0,
+          "attending": []
+        },
+        "Sunday": {
+          "procedures": [
+            0
+          ],
+          "n_daily_cases": 0,
+          "attending": []
+        }
+      }
+    },
+    {
+      "lab": "D",
+      "schedule": [
+      ],
+      "day_params": {
+        "Monday": {
+          "procedures": [
+            0
+          ],
+          "n_daily_cases": 0,
+          "attending": [
+            "N"
+          ]
+        },
+        "Tuesday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 0,
+          "attending": []
+        },
+        "Wednesday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 0,
+          "attending": [
+            "M"
+          ]
+        },
+        "Thursday": {
+          "procedures": [
+            0
+          ],
+          "n_daily_cases": 0,
+          "attending": [
+            "O"
+          ]
+        },
+        "Friday": {
+          "procedures": [
+            1,
+            2,
+            3
+          ],
+          "n_daily_cases": 0,
+          "attending": []
+        },
+        "Saturday": {
+          "procedures": [
+            0
+          ],
+          "n_daily_cases": 0,
+          "attending": []
+        },
+        "Sunday": {
+          "procedures": [
+            0
+          ],
+          "n_daily_cases": 0,
+          "attending": []
+        }
+      }
+    }
+  ]
+}

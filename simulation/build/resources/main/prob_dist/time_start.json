@@ -1,0 +1,4 @@
+[{"distribution": "Beta", "params": {"param1": 1.634813, "param2": 2.204121, "param3": 449.844399, "param4": 93.971532}, "segment": {"lab": 0}},
+  {"distribution": "Beta", "params": {"param1": 1.355581, "param2": 1.752465, "param3": 449.819837, "param4": 92.555208}, "segment": {"lab": 1}},
+  {"distribution": "Beta", "params": {"param1": 1.483093, "param2": 1.958014, "param3": 449.798311, "param4": 93.325254}, "segment": {"lab": 2}},
+  {"distribution": "Uniform", "params": {"param1": 450, "param2": 540}, "segment": {"lab": 3}}]
