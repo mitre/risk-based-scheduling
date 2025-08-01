@@ -1,0 +1,95 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:15.2-alpine
+    container_name: mlflow_db
+    restart: unless-stopped
+    expose:
+      - 2345
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
+    ports:
+      - 2345:2345
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  web:
+    container_name: mlflow_server
+    build: ./mlflow
+    restart: always
+    depends_on:
+      - db
+    healthcheck:
+      test: curl --fail http://localhost:5000/ || exit 1
+      interval: 5s
+      start_period: 10s
+      retries: 10
+    environment:
+      - MLFLOW_PORT=${MLFLOW_PORT}
+      - MLFLOW_ARTIFACTS=${MLFLOW_ARTIFACTS}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_HOST=${DB_HOST}
+      - DB_NAME=${DB_NAME}
+    ports:
+      - 5000:5000
+    links:
+      - db:${DB_HOST}
+    volumes:
+      - mlflow_artifacts:/${MLFLOW_ARTIFACTS}
+    command:
+      mlflow server --host 0.0.0.0 --port ${MLFLOW_PORT} --backend-store-uri postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:5432/${DB_NAME} --default-artifact-root ${MLFLOW_ARTIFACTS}
+
+  simulation:
+    container_name: risk_based_sim
+    build: ./simulation
+    depends_on:
+      web:
+        condition: service_healthy
+        restart: true
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow_server:5000
+    ports:
+      - 7000:7000
+    volumes:
+      - mlflow_artifacts:/app/${MLFLOW_ARTIFACTS}
+
+  generator:
+    container_name: case_gen
+    build: ./case_generator
+    depends_on:
+      - web
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow_server:5000
+    ports:
+      - 6500:6500
+    volumes:
+      - mlflow_artifacts:/case_gen/${MLFLOW_ARTIFACTS}
+
+  scheduler:
+    container_name: sched
+    build: ./scheduler
+    depends_on:
+      - web
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow_server:5000
+    ports:
+      - 4000:4000
+    volumes:
+      - mlflow_artifacts:/sched/${MLFLOW_ARTIFACTS}
+
+  frontend:
+    container_name: dashboard
+    build: ./frontend
+    depends_on:
+      - generator
+      - scheduler
+      - simulation
+    ports:
+      - 3000:3000
+
+volumes:
+  db_data:
+  mlflow_artifacts:
